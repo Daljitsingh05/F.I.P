@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #1a1a3d;
     font-weight: 700;
 }
@@ -112,6 +112,28 @@ h1, h2, h3 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Intro Section */
+.intro {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.intro-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* Products Section */
 .products {
     padding: 80px 0;
@@ -147,6 +169,55 @@ h1, h2, h3 {
     color: #666;
 }
 
+/* Flavor Details Section */
+.flavor-details {
+    padding: 80px 0;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.flavor-details h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.detail h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.detail p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Pairings Section */
+.pairings {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.pairings h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.pairings p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.pairing h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pairing p {
+    font-size: 1.1em;
+    color: #666;
+}
+
 /* About Section */
 .about {
     background-color: #1a1a3d;
@@ -172,7 +243,76 @@ h1, h2, h3 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Form */
+/* Mission Section */
+.mission {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.mission h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.mission-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+.team {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.team h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    animation: spin 10s infinite linear;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
 .contact-form {
     text-align: left;
     background: #fff;
@@ -181,14 +321,15 @@ h1, h2, h3 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form h3 {
+.contact-form h3, .contact-info h3 {
     font-size: 1.8em;
     margin-bottom: 20px;
     color: #1a1a3d;
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.cta form input {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -199,13 +340,28 @@ h1, h2, h3 {
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form textarea:focus,
+.cta form input:focus {
     border-color: #ffcc00;
     outline: none;
 }
 
 .contact-form textarea {
     resize: vertical;
+}
+
+.contact-info {
+    text-align: left;
+    padding: 30px;
+}
+
+.contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 /* Interactive Section */
@@ -217,6 +373,11 @@ h1, h2, h3 {
 
 .interactive h2 {
     font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.interactive p {
+    font-size: 1.2em;
     margin-bottom: 30px;
 }
 
@@ -243,6 +404,63 @@ h1, h2, h3 {
     color: #ffcc00;
     font-weight: 600;
     animation: fadeIn 1s ease-in;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-size: 1.1em;
+    color: #ffcc00;
+}
+
+/* CTA Section */
+.cta {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #3d3d6b;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta form {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Footer */
@@ -314,7 +532,7 @@ h1, h2, h3 {
         font-size: 1.2em;
     }
 
-    .products, .interactive, .about {
+    .intro, .products, .interactive, .about, .mission, .team, .contact, .testimonials, .cta, .flavor-details, .pairings {
         padding: 50px 0;
     }
 }
@@ -333,15 +551,19 @@ h1, h2, h3 {
         font-size: 1em;
     }
 
-    .product-card h3 {
+    .product-card h3, .team-member h3, .pairing h3 {
         font-size: 1.3em;
     }
 
-    .product-card p {
+    .product-card p, .team-member p, .pairing p {
         font-size: 1em;
     }
 
-    .contact-form h3 {
+    .contact-form h3, .contact-info h3 {
         font-size: 1.5em;
+    }
+
+    .cta form {
+        flex-direction: column;
     }
 }
