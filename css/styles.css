@@ -10,6 +10,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+/* Header */
 .header {
     background: linear-gradient(90deg, #1a1a3d, #3d3d6b);
     color: white;
@@ -30,7 +31,6 @@ h1, h2, h3, h4 {
     font-size: 2.5em;
     font-weight: 800;
     letter-spacing: 2px;
-    color: #f9f9f9;
 }
 
 .nav-links {
@@ -67,6 +67,7 @@ h1, h2, h3, h4 {
     transition: 0.3s;
 }
 
+/* Hero Section */
 .hero {
     background: url('cosmic-bg.jpg') no-repeat center/cover;
     min-height: 85vh;
@@ -85,7 +86,7 @@ h1, h2, h3, h4 {
 .hero-text p {
     font-size: 1.5em;
     margin: 25px 0;
-    color: #3d3d6b;
+    color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,6 +112,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Intro Section */
 .intro {
     padding: 80px 0;
     text-align: center;
@@ -132,6 +134,37 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Features Section */
+.features {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.feature {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Products Section */
 .products {
     padding: 80px 0;
     text-align: center;
@@ -166,6 +199,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
+/* Flavor Details Section */
 .flavor-details {
     padding: 80px 0;
     background-color: #f0f4f8;
@@ -187,6 +221,12 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
+.detail-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Pairings Section */
 .pairings {
     padding: 80px 0;
     text-align: center;
@@ -213,6 +253,56 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
+/* Recipes Section */
+.recipes {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.recipes h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.recipe h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.recipe p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.recipe-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Flavor Facts Section */
+.flavor-facts {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.flavor-facts h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.fact h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.fact p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* About Section */
 .about {
     background-color: #1a1a3d;
     color: white;
@@ -237,6 +327,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Mission Section */
 .mission {
     padding: 80px 0;
     text-align: center;
@@ -258,10 +349,33 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team {
+/* Vision Section */
+.vision {
     padding: 80px 0;
     text-align: center;
     background-color: #f0f4f8;
+}
+
+.vision h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.vision-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+.team {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
 }
 
 .team h2 {
@@ -270,7 +384,7 @@ h1, h2, h3, h4 {
 }
 
 .team-member {
-    background: #fff;
+    background: #f9f9f9;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -293,10 +407,60 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-.contact {
+/* Milestones Section */
+.milestones {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.milestones h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.milestone h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.milestone p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.milestone-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Values Section */
+.values {
     padding: 80px 0;
     text-align: center;
     background-color: #fff;
+}
+
+.values h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.value h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.value p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
 }
 
 .contact h2 {
@@ -355,6 +519,7 @@ h1, h2, h3, h4 {
     text-decoration: underline;
 }
 
+/* Interactive Section */
 .interactive {
     padding: 80px 0;
     text-align: center;
@@ -396,6 +561,7 @@ h1, h2, h3, h4 {
     animation: fadeIn 1s ease-in;
 }
 
+/* Testimonials Section */
 .testimonials {
     padding: 80px 0;
     text-align: center;
@@ -426,6 +592,51 @@ h1, h2, h3, h4 {
     color: #ffcc00;
 }
 
+/* History Section */
+.history {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.history h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.history p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.history-img img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Events Section */
+.events {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.events h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.event h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.event p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* CTA Section */
 .cta {
     padding: 80px 0;
     text-align: center;
@@ -451,6 +662,7 @@ h1, h2, h3, h4 {
     flex-wrap: wrap;
 }
 
+/* Footer */
 .footer {
     background-color: #1a1a3d;
     color: white;
@@ -459,6 +671,7 @@ h1, h2, h3, h4 {
     font-size: 1.1em;
 }
 
+/* Keyframe Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -475,6 +688,7 @@ h1, h2, h3, h4 {
     to { transform: rotate(360deg); }
 }
 
+/* Responsive Adjustments */
 @media screen and (max-width: 767px) {
     .burger-menu {
         display: flex;
@@ -517,7 +731,7 @@ h1, h2, h3, h4 {
         font-size: 1.2em;
     }
 
-    .intro, .products, .interactive, .about, .mission, .team, .contact, .testimonials, .cta, .flavor-details, .pairings {
+    .intro, .features, .products, .interactive, .about, .mission, .vision, .team, .contact, .testimonials, .history, .events, .cta, .flavor-details, .pairings, .recipes, .flavor-facts, .milestones, .values {
         padding: 50px 0;
     }
 }
@@ -536,11 +750,11 @@ h1, h2, h3, h4 {
         font-size: 1em;
     }
 
-    .product-card h3, .team-member h3, .pairing h3 {
+    .product-card h3, .team-member h3, .pairing h3, .feature h3, .recipe h3, .fact h3, .milestone h3, .value h3, .event h3 {
         font-size: 1.3em;
     }
 
-    .product-card p, .team-member p, .pairing p {
+    .product-card p, .team-member p, .pairing p, .feature p, .recipe p, .fact p, .milestone p, .value p, .event p {
         font-size: 1em;
     }
 
