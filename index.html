@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orbitz - Feel the Orbit. Taste the cool</title>
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Orbitz - Refresh Your Orbit</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="grid-con">
             <nav class="navbar col-span-full m-col-span-full l-col-span-full">
                 <h1 class="logo">Orbitz</h1>
-                <img src="images/FIP LOGO 1.svg" alt="Logo" width="50" height="50">
                 <div class="burger-menu" id="burger-menu">
                     <span></span>
                     <span></span>
@@ -31,11 +30,11 @@
         <div class="grid-con">
             <div class="hero-text col-span-4 m-col-span-6 l-col-span-6">
                 <h1>Refresh Your Orbit</h1>
-                <p>Experience the cosmic burst of flavor with Orbitz cold drinks – a refreshing escape from the ordinary.</p>
+                <p>Embark on a cosmic flavor journey with Orbitz cold drinks – where every sip is a refreshing escape from the everyday grind into a universe of taste.</p>
                 <button class="cta-btn">Explore Now</button>
             </div>
             <div class="hero-img col-span-4 m-col-span-6 l-col-span-6">
-                <img src="images/FIP LOGO 1.svg" alt="Orbitz Drink" class="bounce">
+                <img src="hero-img.jpg" alt="Orbitz Drink" class="bounce">
             </div>
         </div>
     </section>
@@ -43,9 +42,36 @@
     <section class="intro">
         <div class="grid-con">
             <h2 class="col-span-full m-col-span-full l-col-span-full">Why Orbitz?</h2>
-            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Orbitz isn’t just a drink—it’s a cosmic adventure in every sip. Our unique blend of flavors takes you on a journey through the stars, combining bold tastes with refreshing vibes. Whether you're chilling at home or on the go, Orbitz is your perfect companion.</p>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Orbitz isn’t just a beverage—it’s a galactic experience crafted for those who crave something extraordinary. Our drinks are designed to break the mold of traditional refreshment, blending bold, innovative flavors with a cosmic twist. From the first sip to the last, Orbitz transports you to a world where taste knows no limits. Whether you’re unwinding after a busy day, fueling up for an adventure, or simply looking to add some sparkle to your routine, Orbitz is here to elevate every moment.</p>
             <div class="intro-img col-span-full m-col-span-6 l-col-span-6">
-                <img src="images/Drinks.jpg" alt="Orbitz Experience" class="fade-in">
+                <img src="intro-img.jpg" alt="Orbitz Experience" class="fade-in">
+            </div>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Our commitment to quality starts with the finest ingredients sourced from across the globe. Each flavor is meticulously blended to ensure a perfect balance of taste and refreshment. We’re not just about drinking—we’re about creating memories, sparking conversations, and inspiring creativity. Join us as we redefine what a cold drink can be, one sip at a time.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="grid-con">
+            <h2 class="col-span-full m-col-span-full l-col-span-full">What Makes Orbitz Special</h2>
+            <div class="feature col-span-4 m-col-span-4 l-col-span-4">
+                <h3>Unmatched Flavor</h3>
+                <p>Our recipes are inspired by the wonders of the universe, delivering bold, unique tastes that stand out from the crowd.</p>
+            </div>
+            <div class="feature col-span-4 m-col-span-4 l-col-span-4">
+                <h3>Premium Ingredients</h3>
+                <p>We use only the highest quality natural extracts and flavors, ensuring every bottle is a masterpiece.</p>
+            </div>
+            <div class="feature col-span-4 m-col-span-4 l-col-span-4">
+                <h3>Eco-Friendly</h3>
+                <p>From recyclable packaging to sustainable sourcing, we’re committed to protecting the planet we call home.</p>
+            </div>
+            <div class="feature col-span-4 m-col-span-4 l-col-span-4">
+                <h3>Versatile Enjoyment</h3>
+                <p>Perfect for sipping solo, mixing into cocktails, or pairing with your favorite meals—Orbitz fits every occasion.</p>
+            </div>
+            <div class="feature col-span-4 m-col-span-4 l-col-span-4">
+                <h3>Cosmic Creativity</h3>
+                <p>Our interactive flavor mixer lets you customize your drink, making every experience uniquely yours.</p>
             </div>
         </div>
     </section>
@@ -53,30 +79,70 @@
     <section class="interactive">
         <div class="grid-con">
             <h2 class="col-span-full m-col-span-full l-col-span-full">Create Your Cosmic Mix</h2>
-            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Mix and match your favorite Orbitz flavors to create a drink that’s uniquely yours. Experiment with our galactic combinations and discover a taste that’s out of this world!</p>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Unleash your inner mixologist with Orbitz! Our interactive flavor mixer lets you combine your favorite tastes to craft a drink that’s truly out of this world. Whether you prefer the fruity punch of Galactic Grape, the zesty blast of Stellar Citrus, or the cool rush of Meteor Mint, the possibilities are endless. Experiment, share your creations with friends, and discover a flavor profile that’s as unique as you are.</p>
             <div class="mixer col-span-full m-col-span-full l-col-span-full">
                 <button class="mix-btn" data-flavor="grape">Add Grape</button>
                 <button class="mix-btn" data-flavor="citrus">Add Citrus</button>
                 <button class="mix-btn" data-flavor="mint">Add Mint</button>
                 <div id="mix-result" class="mix-result"></div>
             </div>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Not sure where to start? Try our fan-favorite combos: Grape + Citrus for a tangy twist, Citrus + Mint for a refreshing zing, or all three for a cosmic explosion of flavor. Share your mixes on social media with #OrbitzMix and join our growing community of flavor explorers!</p>
         </div>
     </section>
 
     <section class="testimonials">
         <div class="grid-con">
-            <h2 class="col-span-full m-col-span-full l-col-span-full">What Our Fans Say</h2>
+            <h2 class="col-span-full m-col-span-full l-col-span-full">What Our Cosmic Fans Say</h2>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Don’t just take our word for it—here’s what real Orbitz drinkers have to say about their out-of-this-world experiences.</p>
             <div class="testimonial col-span-4 m-col-span-4 l-col-span-4">
-                <p>"Orbitz is my go-to drink after a long day. The flavors are unreal!"</p>
-                <h4>- Sarah K.</h4>
+                <p>"Orbitz is my go-to after a long day. The flavors are unreal, and I love mixing them up!"</p>
+                <h4>- Sarah K., Star Gazer</h4>
             </div>
             <div class="testimonial col-span-4 m-col-span-4 l-col-span-4">
-                <p>"I love mixing the citrus and mint—such a refreshing combo!"</p>
-                <h4>- Jake M.</h4>
+                <p>"I’m obsessed with the Citrus and Mint combo—it’s so refreshing, I can’t get enough!"</p>
+                <h4>- Jake M., Cosmic Traveler</h4>
             </div>
-            <div classa class="testimonial col-span-4 m-col-span-4 l-col-span-4">
-                <p>"The best cold drink I’ve ever tasted. Galactic Grape is my favorite!"</p>
-                <h4>- Emily R.</h4>
+            <div class="testimonial col-span-4 m-col-span-4 l-col-span-4">
+                <p>"Galactic Grape is hands-down the best cold drink I’ve ever tasted. It’s pure magic!"</p>
+                <h4>- Emily R., Flavor Explorer</h4>
+            </div>
+            <div class="testimonial col-span-4 m-col-span-4 l-col-span-4">
+                <p>"The eco-friendly packaging is a huge plus, and the taste is just phenomenal."</p>
+                <h4>- Liam T., Earth Advocate</h4>
+            </div>
+            <div class="testimonial col-span-4 m-col-span-4 l-col-span-4">
+                <p>"I brought Orbitz to a party, and everyone was blown away. It’s a game-changer!"</p>
+                <h4>- Mia S., Party Planner</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <div class="grid-con">
+            <h2 class="col-span-full m-col-span-full l-col-span-full">The Orbitz Story</h2>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Orbitz began as a dream in a small lab, where a team of flavor enthusiasts set out to create something truly unique. Inspired by the vastness of space and the endless possibilities it holds, we spent years perfecting our recipes. From humble beginnings, Orbitz has grown into a beloved brand, reaching taste buds across the globe. Our journey is fueled by innovation, passion, and a love for refreshment that knows no bounds.</p>
+            <div class="history-img col-span-full m-col-span-6 l-col-span-6">
+                <img src="history-img.jpg" alt="Orbitz Beginnings" class="fade-in">
+            </div>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Today, Orbitz stands as a testament to what happens when creativity meets quality. We’ve expanded our flavor lineup, embraced sustainable practices, and built a community of fans who share our vision. Every bottle tells a story—of exploration, discovery, and the joy of a perfect drink.</p>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="grid-con">
+            <h2 class="col-span-full m-col-span-full l-col-span-full">Orbitz Events & Promotions</h2>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Join us at our upcoming events or take advantage of our latest promotions to experience Orbitz like never before!</p>
+            <div class="event col-span-4 m-col-span-6 l-col-span-6">
+                <h3>Cosmic Taste Fest</h3>
+                <p>Date: May 15, 2025<br>Location: Star City Park<br>Sample all our flavors, enjoy live music, and mix your own Orbitz creations at our annual festival!</p>
+            </div>
+            <div class="event col-span-4 m-col-span-6 l-col-span-6">
+                <h3>Summer Refresh Deal</h3>
+                <p>Date: June 1 - August 31, 2025<br>Buy two Orbitz bottles, get one free at participating retailers. Stock up for summer!</p>
+            </div>
+            <div class="event col-span-4 m-col-span-6 l-col-span-6">
+                <h3>Orbitz Mix Challenge</h3>
+                <p>Date: Ongoing<br>Share your best flavor mix on social media with #OrbitzMix for a chance to win a year’s supply!</p>
             </div>
         </div>
     </section>
@@ -84,11 +150,12 @@
     <section class="cta">
         <div class="grid-con">
             <h2 class="col-span-full m-col-span-full l-col-span-full">Join the Orbitz Universe</h2>
-            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Sign up for exclusive offers, new flavor releases, and cosmic updates straight to your inbox.</p>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">Be the first to hear about new flavors, exclusive offers, and cosmic updates. Subscribe now and become part of our stellar community!</p>
             <form class="col-span-full m-col-span-6 l-col-span-6 m-col-start-4 l-col-start-4">
                 <input type="email" placeholder="Enter your email" required>
                 <button type="submit" class="cta-btn">Subscribe</button>
             </form>
+            <p class="col-span-full m-col-span-8 l-col-span-8 m-col-start-3 l-col-start-3">As a subscriber, you’ll also get access to our monthly newsletter packed with recipes, behind-the-scenes stories, and special discounts. Don’t miss out—join the orbit today!</p>
         </div>
     </section>
 
@@ -98,6 +165,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
