@@ -65,7 +65,7 @@ body, p, h1, h2, h3, h4, h5 {
 .col-end-4	{grid-column-end: 4;}
 .col-end-5	{grid-column-end: 5;}
 
-/* ---Tablet Library Grid Styles--- */
+
 @media screen and (min-width: 768px) { 
     .grid-con { 
         display: grid; 
@@ -120,7 +120,7 @@ body, p, h1, h2, h3, h4, h5 {
     .m-col-end-13	{grid-column-end: 13;}
 }
 
-/* ---Desktop Library Grid Styles--- */
+
 @media screen and (min-width: 1200px) { 
     .grid-con {
         display: grid; 

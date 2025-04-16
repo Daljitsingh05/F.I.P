@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
-/* Header */
+
 .header {
     background: linear-gradient(90deg, #1a1a3d, #3d3d6b);
     color: white;
@@ -67,7 +67,7 @@ h1, h2, h3, h4 {
     transition: 0.3s;
 }
 
-/* Hero Section */
+
 .hero {
     background: url('cosmic-bg.jpg') no-repeat center/cover;
     min-height: 85vh;
@@ -112,7 +112,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Intro Section */
+
 .intro {
     padding: 80px 0;
     text-align: center;
@@ -134,7 +134,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Features Section */
+
 .features {
     padding: 80px 0;
     text-align: center;
@@ -164,7 +164,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* Products Section */
+
 .products {
     padding: 80px 0;
     text-align: center;
@@ -199,7 +199,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* Flavor Details Section */
+
 .flavor-details {
     padding: 80px 0;
     background-color: #f0f4f8;
@@ -226,7 +226,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Pairings Section */
+
 .pairings {
     padding: 80px 0;
     text-align: center;
@@ -253,7 +253,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* Recipes Section */
+
 .recipes {
     padding: 80px 0;
     text-align: center;
@@ -280,7 +280,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Flavor Facts Section */
+
 .flavor-facts {
     padding: 80px 0;
     text-align: center;
@@ -302,7 +302,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* About Section */
+
 .about {
     background-color: #1a1a3d;
     color: white;
@@ -327,7 +327,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Mission Section */
+
 .mission {
     padding: 80px 0;
     text-align: center;
@@ -349,7 +349,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Vision Section */
+
 .vision {
     padding: 80px 0;
     text-align: center;
@@ -371,7 +371,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Team Section */
+
 .team {
     padding: 80px 0;
     text-align: center;
@@ -407,7 +407,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* Milestones Section */
+
 .milestones {
     padding: 80px 0;
     text-align: center;
@@ -434,7 +434,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Values Section */
+
 .values {
     padding: 80px 0;
     text-align: center;
@@ -456,7 +456,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 80px 0;
     text-align: center;
@@ -519,7 +519,7 @@ h1, h2, h3, h4 {
     text-decoration: underline;
 }
 
-/* Interactive Section */
+
 .interactive {
     padding: 80px 0;
     text-align: center;
@@ -561,7 +561,7 @@ h1, h2, h3, h4 {
     animation: fadeIn 1s ease-in;
 }
 
-/* Testimonials Section */
+
 .testimonials {
     padding: 80px 0;
     text-align: center;
@@ -592,7 +592,6 @@ h1, h2, h3, h4 {
     color: #ffcc00;
 }
 
-/* History Section */
 .history {
     padding: 80px 0;
     text-align: center;
@@ -614,7 +613,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Events Section */
+
 .events {
     padding: 80px 0;
     text-align: center;
@@ -636,7 +635,7 @@ h1, h2, h3, h4 {
     color: #666;
 }
 
-/* CTA Section */
+
 .cta {
     padding: 80px 0;
     text-align: center;
@@ -662,7 +661,7 @@ h1, h2, h3, h4 {
     flex-wrap: wrap;
 }
 
-/* Footer */
+
 .footer {
     background-color: #1a1a3d;
     color: white;
@@ -671,7 +670,7 @@ h1, h2, h3, h4 {
     font-size: 1.1em;
 }
 
-/* Keyframe Animations */
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -688,7 +687,7 @@ h1, h2, h3, h4 {
     to { transform: rotate(360deg); }
 }
 
-/* Responsive Adjustments */
+
 @media screen and (max-width: 767px) {
     .burger-menu {
         display: flex;
